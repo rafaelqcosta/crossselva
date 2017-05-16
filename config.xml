@@ -2,11 +2,12 @@
 <widget id="com.appcross.crossselva" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>CrossSelva</name>
     <description>
-        Aplicativo mobile para gestão Crossfit.
+        Aplicativo mobile para gestão e controle de aulas Crossfit.
     </description>
     <author email="rafaqcosta@gmail.com" href="http://phonegap.com">
         Rafael A. Q. Costa
     </author>
     <content src="index.html" />
     <access origin="*" />
+	<preference name="phonegap-version" value="3.1.0" />
 </widget>
