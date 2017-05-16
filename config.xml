@@ -9,5 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	<preference name="phonegap-version" value="3.1.0" />
+	<preference name="phonegap-version" value="cli-6.4.0" />
 </widget>
