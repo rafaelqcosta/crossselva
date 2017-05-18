@@ -1,4 +1,4 @@
-.page-content{
+.page-content.main{
 	top: 50%;
 }
 
@@ -27,3 +27,4 @@
         -webkit-align-items: center;
         align-items: center;
     }
+	

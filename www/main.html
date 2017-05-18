@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>My App</title>
+    <title>CrossSelva</title>
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="dist/css/framework7.ios.min.css">
     <link rel="stylesheet" href="dist/css/framework7.ios.colors.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="dist/css/my-app.css">
+	<!--CSS ICONS-->
+	<link rel="stylesheet" href="css/framework7-icons.css">
 	
 	
 	<!-- Link Swiper's CSS -->
@@ -35,20 +37,30 @@
         <p>Right panel content goes here</p>
       </div>
     </div>
+  
+
     <!-- Views-->
     <div class="views">
       <!-- Your main view, should have "view-main" class-->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar">
-          <div class="navbar-inner">
-            <!-- We have home navbar without left link-->
-            <div class="center sliding">Awesome App</div>
-            <div class="right">
-              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
-            </div>
-          </div>
-        </div>
+		
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="left">
+					<a href="#" class="link icon-only open-panel"> 
+						<i class="icon icon-bars color-black"></i>
+					</a>
+				</div>
+				<div class="center sliding">Crosfit Selva</div>
+				<div class="right">
+					<a href="#" class="link icon-only"> 
+						<i class="f7-icons color-black">calendar</i>
+					</a>
+				</div>
+			</div>
+		</div>
+
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
           <!-- Page, data-page contains page name-->
@@ -97,8 +109,16 @@
 			
 			
 			<!-- Scrollable page content-->
-            <div class="page-content" >
-              <div class="content-block-title">Welcome To My Awesome App</div>
+            <div class="page-content main" >
+			
+				<p><a href="agendar.html" class="button">Agendar</a></p>
+			
+			<p><a href="teste.html" class="button">WOD</a></p>
+				<p><a href="prs.html" class="button">PRs</a></p>
+				<p><a href="rms.gtml" class="button">RMs</a></p>
+			
+              <!--
+			  <div class="content-block-title">Welcome To My Awesome App</div>
               <div class="content-block">
                 <div class="content-block-inner">
                   <p>Couple of worlds here because my app is so awesome!</p>
@@ -135,6 +155,9 @@
                   <div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
                 </div>
               </div>
+			  -->
+			  
+			  
             </div>
           </div>
         </div>
@@ -148,5 +171,7 @@
     <script type="text/javascript" src="dist/js/framework7.min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="dist/js/my-app.js"></script>
+
+ 
   </body>
 </html>
